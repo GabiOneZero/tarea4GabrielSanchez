@@ -47,6 +47,11 @@ public class Edificio {
     public void setTieneAscensor(boolean tieneAscensor) {
         this.tieneAscensor = tieneAscensor;
     }
+
+    @Override
+    public String toString() {
+        return "Edificio{" + "direccion=" + direccion + ", numeroPlantas=" + numeroPlantas + ", tieneAscensor=" + tieneAscensor + '}';
+    }
    
     
     
