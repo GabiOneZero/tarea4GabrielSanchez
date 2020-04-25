@@ -11,4 +11,19 @@ package com.gabriel.tarea4gabrielsanchez;
  */
 public class Edificio {
     
+    private String direccion;
+    private int numeroPlantas;
+    private boolean tieneAscensor;
+
+    public Edificio() {
+    }
+
+    public Edificio(String direccion, int numeroPlantas, boolean tieneAscensor) {
+        this.direccion = direccion;
+        this.numeroPlantas = numeroPlantas;
+        this.tieneAscensor = tieneAscensor;
+    }
+   
+    
+    
 }
